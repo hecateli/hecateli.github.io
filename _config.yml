@@ -1,0 +1,97 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: 'https://hecateli.github.io'
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: "https://github.com"
+
+# Title of the Site
+title: Hecate Li
+# Description of the Site
+description: Welcome to my website
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://www.themebeta.com/files/windows/images/202102/17/bf05a91b89113d7ff596558eff7a0629.jpeg
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: hecateyue.li@mail.utoronto.ca
+facebook_username: profile.php?id=100082882484128
+twitter_username: /
+instagram_username: hecateyyyue
+linkedin_username: hecate-li
+github_username:  hecateli
+youtube_channel_id: UCcHUloxcNnXMiEWJoEeeyRA
+reddit_username: /
+behance_username: /
+dribbble_username: /
+spotify_username: /
+
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# Disqus
+disqus-shortname: /
+
+# Name of the Author
+author-name: Hecate
+# URL for the Image of the Author
+author-image: https://wx3.sinaimg.cn/orj360/006CojIDgy1h7na7dgjqrj31vj2ta1ky.jpg
+# 60 Words About the Author
+author-about: I'm Hecate Li from Guangzhou, China, and I am pursuing a Bachelor's degree in Computer Science at the University of Toronto. In my spare time, I like dancing(Jazz & KPOP) and playing the guitar. Also I'm really intersted in cardistry.
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/hecateli
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
