@@ -25,8 +25,8 @@
                     href="{% if page.layout == 'default' %}{{site.url}}/#{% else %}{{site.url}}/{% endif %}">HOME</a>
                 <a class="navbar-item" href="{{site.url}}/#about">ABOUT</a>
                 <a class="navbar-item" href="{{site.url}}/#contact">CONTACT</a>
-                <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
-                    href="{{site.url}}/blog">VLOG</a>
+                <a class="navbar-item {% if page.layout == 'vlog' %}is-active{% endif %}"
+                    href="{{site.url}}/vlog">VLOG</a>
                 {% include dropdown.html %}
             </div>
 
